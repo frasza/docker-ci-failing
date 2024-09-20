@@ -1,0 +1,48 @@
+{
+  "name": "app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "^0.8.0",
+    "@nuxtjs/i18n": "^8.5.4",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia/nuxt": "^0.5.4",
+    "@sentry/vue": "^7.119.0",
+    "@tanstack/vue-query": "^5.56.2",
+    "@types/google.accounts": "^0.0.14",
+    "@vee-validate/nuxt": "^4.13.2",
+    "@vee-validate/zod": "^4.13.2",
+    "@vueuse/nuxt": "^11.1.0",
+    "apexcharts": "^3.53.0",
+    "axios": "^1.7.7",
+    "pinia": "^2.2.2",
+    "posthog-js": "^1.163.0",
+    "primevue": "^4.0.7",
+    "qs": "^6.13.0",
+    "vue": "^3.5.7",
+    "vue-recaptcha-v3": "^2.0.1",
+    "vue-router": "^4.4.5",
+    "vue3-apexcharts": "^1.6.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.7.1",
+    "@egoist/tailwindcss-icons": "^1.8.1",
+    "@iconify-json/tabler": "^1.2.3",
+    "@nuxt/eslint": "^0.5.7",
+    "@primevue/nuxt-module": "^4.0.7",
+    "@types/qs": "^6.9.16",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "nuxt": "^3.13.2",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "vue-tsc": "^2.1.6"
+  }
+}
